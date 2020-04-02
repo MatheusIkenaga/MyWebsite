@@ -4,6 +4,6 @@ const testController = require('./controllers/testController')
 
 const routes = express.Router();
 
-routes.get('/', testController.index)
+routes.get('/api/test', testController.index)
 
 module.exports = routes;
